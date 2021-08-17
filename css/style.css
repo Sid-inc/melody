@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  background-color: #635854;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-bottom: 4px solid #3596F5;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1280px;
+  margin: auto;
+}
+
+.navbar__menu {
+  display: flex;
+  text-align: center;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.navbar__item + .navbar__item {
+  margin-left: 80px;
+}
+
+.navbar__link {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.navbar__contacts {
+  text-align: right;
+}
+
+.navbar__text {
+  display: block;
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 4px;
+  color: #FFF;
+}
+
+.navbar__phone {
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #FFF;
+}
