@@ -1,2 +1,2 @@
-# melody
-Test project GLO academy
+# melody - Учебный проект GLO academy
+## Проект выпорлнил я
