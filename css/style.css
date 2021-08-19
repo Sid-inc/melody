@@ -81,7 +81,8 @@ body {
   cursor: pointer;
 }
 
-.buiding path:hover {
+/* .buiding path:hover, */
+path.current-floor {
   opacity: 1;
 }
 
