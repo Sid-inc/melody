@@ -1,9 +1,9 @@
 window.onload = function() {
-  let building = document.querySelector('.buiding'); // Находим картинку с домом и этажами
-  let floors = document.querySelectorAll('[data-floor]'); // Находим все этажи
-  let counter = document.querySelector('.counter__value'); // Находим счетчик этажей
-  let btnUp = document.querySelector('.counter__button--up'); // Находим кнопку вверх
-  let btnDown = document.querySelector('.counter__button--down'); // Находим кнопку вниз
+  const building = document.querySelector('.buiding'); // Находим картинку с домом и этажами
+  const floors = document.querySelectorAll('[data-floor]'); // Находим все этажи
+  const counter = document.querySelector('.counter__value'); // Находим счетчик этажей
+  const btnUp = document.querySelector('.counter__button--up'); // Находим кнопку вверх
+  const btnDown = document.querySelector('.counter__button--down'); // Находим кнопку вниз
   let currentFloor = 2; // Задаем этаж по умолчанию
 
   building.addEventListener('mouseover', (event) => { // Обработчик наведения на этаж
