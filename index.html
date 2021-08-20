@@ -88,9 +88,72 @@
           <img class="counter__icon" src="img/arrow.svg" width="32" height="20" alt="Стрелка вниз">
         </button>
       </div>
-      <button class="button button--primary">Смотреть квартиры на этаже</button>
+      <button class="button button--primary" id="btnShowFlors">Смотреть квартиры на этаже</button>
     </div>
   </main>
+  <div class="modal-holder">
+    <section class="modal">
+      <button class="modal__close" id="modal-close" aria-label="Закрыть окно"></button>
+      <div class="modal__image">
+        <h3 class="modal__title">Этаж <span class="modal-counter">02</span></h3>
+        <svg class="flats" width="433" height="408" viewBox="0 0 433 408" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <rect width="433" height="408" fill="url(#pattern2)"/>
+          <defs>
+            <pattern id="pattern2" patternContentUnits="objectBoundingBox" width="1" height="1">
+            <use xlink:href="#image2" transform="scale(0.00230947 0.00245098)"/>
+            </pattern>
+            <image id="image2" width="433" height="408" xlink:href="img/floors.jpg"/>
+          </defs>
+          <path data-flat="49" d="M388 81V141H314V148H267.5V131H247V32.5H338.5V16H405V81H388Z" fill="#3595F6" fill-opacity="0.75"/>
+          <path data-flat="48" d="M314 148.5H268V200H367.5V205H387.5V141H314V148.5Z" fill="#3595F6" fill-opacity="0.75"/>
+          <path data-flat="47" d="M314.192 252.662H268V200H367.916V204.602H388V268H314.192V252.662Z" fill="#3595F6" fill-opacity="0.75"/>
+          <path data-flat="46" d="M314 253H268.5V309H295.5V376H340V393H405V328.5H388V268.5H314V253Z" fill="#3595F6" fill-opacity="0.75"/>
+          <path data-flat="45" d="M218 394.5V264H247.5V273.5H267.5V310.5H294.5V375H259.5V394.5H218Z" fill="#3595F6" fill-opacity="0.75"/>
+          <path data-flat="44" d="M217 394.5V264H187.5V273.5H167.5V310.5H140.5V375H175.5V394.5H217Z" fill="#3595F6" fill-opacity="0.75"/>
+          <path data-flat="43" d="M121 252H166.5V309H139.5V376H95V393H30V328.5H47V273.5H121V252Z" fill="#3595F6" fill-opacity="0.75"/>
+          <path data-flat="42" d="M119.5 273.5H46V198H167V250.822H119.5V273.5Z" fill="#3595F6" fill-opacity="0.75"/>
+          <path data-flat="41" d="M124.729 116H46V198H167V145.178H124.729V116Z" fill="#3595F6" fill-opacity="0.75"/>
+          <path data-flat="40" d="M46.5 81V115.5H125V144.5H164V131H184.5V32.5H93V16H28V81H46.5Z" fill="#3595F6" fill-opacity="0.75"/>
+        </svg>
+      </div>
+      <div class="modal__info">
+        <h3 class="modal__title">Выберите квартиру</h3>
+        <ul class="flats-list">
+          <li class="flats-list__item">
+            <a class="flats-list__link" data-flat="40" href="#">кв. 40, 2 комн. 64,5 кв. м.</a>
+          </li>
+          <li class="flats-list__item">
+            <a class="flats-list__link" data-flat="41" href="#">кв. 41, 1 комн. 38,9 кв. м.</a>
+          </li>
+          <li class="flats-list__item">
+            <a class="flats-list__link" data-flat="42" href="#">кв. 42, 1 комн. 35,9 кв. м.</a>
+          </li>
+          <li class="flats-list__item">
+            <a class="flats-list__link" data-flat="43" href="#">кв. 43, 2 комн. 56 кв. м.</a>
+          </li>
+          <li class="flats-list__item">
+            <a class="flats-list__link" data-flat="44" href="#">кв. 44, 1 комн. 35,8 кв. м.</a>
+          </li>
+          <li class="flats-list__item">
+            <a class="flats-list__link" data-flat="45" href="#">кв. 45, 1 комн. 35,8 кв. м.</a>
+          </li>
+          <li class="flats-list__item">
+            <a class="flats-list__link" data-flat="46" href="#">кв. 46, 2 комн. 58,4 кв. м.</a>
+          </li>
+          <li class="flats-list__item">
+            <a class="flats-list__link" data-flat="47" href="#">кв. 47, 1 комн. 32,3 кв. м.</a>
+          </li>
+          <li class="flats-list__item">
+            <a class="flats-list__link" data-flat="48" href="#">кв. 48, 1 комн. 29,9 кв. м.</a>
+          </li>
+          <li class="flats-list__item">
+            <a class="flats-list__link" data-flat="49" href="#">кв. 49, 3 комн. 75,2 кв. м.</a>
+          </li>
+        </ul>
+        <span class="modal__text">Квартиры, отмеченные серым, уже выкуплены</span>
+      </div>
+    </section>
+  </div>
   <script src="js/main.js"></script>
 </body>
 </html>
